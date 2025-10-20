@@ -1,6 +1,6 @@
 {
-    "version": "1.1.7",
-    "name": "Webcam Frame Generator",
+    "version": "0.1",
+    "name": "Source Builder",
     "buildPath": "dist/",
     "permissions": ["slobs.scenes-sources"],
     "supportedPlatforms": ["twitch", "youtube", "facebook"],
@@ -8,17 +8,17 @@
     "sources": [
       {
         "type": "browser_source",
-        "name": "Webcam Frame",
-        "id": "webcam-frame-source",
+        "name": "Source Builder",
+        "id": "bb-source-builder",
         "about": {
-          "description": "Generate endless beautiful masks and frames for your Webcam!",
+          "description": "Generate beautiful sources",
           "bannerImage": "./images/app-icon.jpg"
         },
         "file": "index.html",
         "initialSize": {
           "type": "absolute",
-          "width": 1280,
-          "height": 720
+          "width": 600,
+          "height": 600
         }
       }
     ],
